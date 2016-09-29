@@ -43,6 +43,7 @@ static char * const YZTopZoomImageViewFrameKey = "YZTopZoomImageViewFrameKey";
     return  objc_getAssociatedObject(self, YZTableViewKey);
 }
 @end
+
 @implementation UITableView (YZTopZoomScroll)
 
 + (void)load{
